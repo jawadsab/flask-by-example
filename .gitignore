@@ -1,5 +1,5 @@
 # Byte-compiled / optimized / DLL files
-/flaskapp__pycache__/
+flaskapp/__pycache__/
 *.py[cod]
 
 # C extensions
