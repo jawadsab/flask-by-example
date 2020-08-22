@@ -1,5 +1,8 @@
 from flaskapp import app
+import os
 
+
+print(os.getenv("APP_SETTINGS"))
 @app.route("/")
 def home():
     return "<h1>Hello World</h1>"
